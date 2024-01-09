@@ -1,1 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ULima Social</title>
+</head>
+
+<body>
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/ULIMA_logo.png" alt="Logo ULima" class="logo">
+        <h1>Sobre nosotros</h1>
+        <p> ULima Social es una iniciativa que quiere mejorar la comunidad mediante la ejecución de <u>proyectos
+                prácticos</u> que permitan solucionar problemas. Es un lugar donde se juntan gente creativa, alrededor
+            de grandes ideas.</p>
+    </header>
+    <h2>Projectos</h2>
+    <ul>
+        <li>Más buscados</li>
+        <ul>
+            <li><a href="#">Flying ducks</a></li>
+            <li><a href="#">Kitty kitty kitty</a></li>
+        </ul>
+        <li>Últimos</li>
+        <ul>
+            <li><a href="#">Avengers against Climate Change</a></li>
+            <li><a href="#">Facedog</a></li>
+        </ul>
+    </ul>
+    <h2>Cronograma</h2>
+    <table>
+        <tr>
+            <th>Hora</th>
+            <th>Tema</th>
+        </tr>
+        <tr>
+            <td>18:00-20:30</td>
+            <td>Registro</td>
+        </tr>
+        <tr>
+            <td>20:30-23:00</td>
+            <td>Charla</td>
+        </tr>
+    </table>
+
+
+    <h2>Regístrate!</h2>
+    <form action="#" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="lugar">Lugar:</label>
+        <select id="lugar" name="lugar">
+            <option value="umsa">Lima</option>
+            <option value="uma">Arequipa</option>
+        </select>
+        <br>
+        <p>Genero:</p>
+        <label for="genero">Masculino:</label>
+        <input type="radio" id="femenino" name="genero" value="femenino">
+        <br>
+        <label for="femenino">Femenino:</label>
+        <input type="radio" id="masculino" name="genero" value="masculino">
+        <br>
+        <br>
+        <label for="experiencia">Experiencia:</label>
+        <br>
+        <textarea id="experiencia" name="experiencia" rows="4" cols="50"></textarea>
+        <br>
+        <input type="submit" value="Registrarse">
+
+    </form>
+
+</body>
+
+</html>
