@@ -1,0 +1,22 @@
+.botones p{
+    margin: 0;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+}
+
+#boton1 {
+    background-color: black;
+    font-size: 28px;
+}
+
+#boton2 {
+    background-color: yellow;
+    font-size: 28px;
+}
+
+#boton1 p {
+    color: white;
+}
+
+#boton2 p {
+    color: black;
+}
